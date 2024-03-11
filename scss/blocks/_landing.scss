@@ -1,0 +1,35 @@
+.landing_pages {
+    margin-top: 100px;
+}
+
+.landing_pages__title {
+    margin-bottom: 25px;
+
+    @include mediaTablet {
+        margin-top: -50px;
+    }
+}
+
+.title-2 {
+    @include mediaTablet {
+        font-size: 35px;
+        margin-left: 25px;
+    }
+}
+
+.landing_pages__cards {
+    flex-wrap: wrap;
+    max-width: 100%;
+    // grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); //
+
+    @include mediaTablet {
+        max-width: 60%;
+        margin-left: 20px;
+    }
+}
+
+.card__img {
+    width: 416px;
+    height: 452px;
+    margin: 20px;
+}

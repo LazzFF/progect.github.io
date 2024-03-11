@@ -1,0 +1,45 @@
+.benefits {
+    position: relative;
+    margin-top: 80px;
+}
+
+.benefits__row {
+    display: flex;
+    column-gap: 16px;
+
+    @include mediaTablet {
+        margin-left: 170px;
+        width: 1000px;
+        column-gap: 70px;
+    }
+}
+
+.benefits__item-img {
+    float: left;
+    margin-right: 24px;
+    margin-top: -15px;
+}
+
+.benefits__item-title {
+    color: $navigation;
+    text-align: left;
+    font-weight: bold;
+    font-size: 24px;
+
+    @include mediaTablet {
+        margin-top: -10px;
+        font-size: 22px;
+    }
+}
+
+.benefits__item-text {
+    color: $navigation;
+    text-align: left;
+    margin-top: 13px;
+    font-size: 16px;
+
+    @include mediaTablet {
+        margin-top: 10px;
+    }
+
+}

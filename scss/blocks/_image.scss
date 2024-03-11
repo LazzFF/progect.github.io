@@ -1,0 +1,10 @@
+.image_title {
+    width: 370px;
+    margin: -497px 80px 0px 943px;
+
+    @include mediaTablet {
+        width: 340px;
+        margin-top: -477px;
+        margin-left: 860px;
+    }
+}

@@ -1,0 +1,49 @@
+.screen {
+    background-color: $navigation;
+    margin-top: 80px;
+    height: 603px;
+
+    @include mediaTablet {
+        width: 1500px;
+        height: 500px;
+    }
+}
+
+.screen__row {
+    @include mediaTablet {
+        margin-right: 100px;
+    }
+}
+
+.screen__item {
+    color: $color2;
+    text-align: center;
+}
+
+.screen__item-img {
+    margin-top: 100px;
+    margin-right: 590px;
+    margin-left: 590px;
+    width: 100px;
+    height: 20px;
+
+    @include mediaTablet {
+        margin-left: 520px;
+    }
+}
+
+.screen__item-quote {
+    margin-top: 25px;
+    font-size: 40px;
+}
+
+.screen__item-author {
+    margin-top: 21px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.screen__item-email {
+    margin-top: 7px;
+    color: rgba($color: $color2, $alpha: 40%);
+}

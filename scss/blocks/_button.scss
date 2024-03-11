@@ -1,0 +1,42 @@
+.button {
+    background-color: $color1;
+    padding: 10px 20px;
+    color: $navigation;
+    border-radius: 5px;
+    align-items: center;
+
+    :hover {
+        box-shadow: 0 0 0 2px white, 0 0 0 4px $navigation;
+    }
+}
+
+.button_bottom {
+    display: flex;
+    column-gap: 10px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 1039px;
+
+    :hover {
+        box-shadow: 0 0 0 2px white, 0 0 0 4px $navigation;
+    }
+}
+
+.button_black {
+    background-color: $navigation;
+    color: $color2;
+    transition: .2s linear;
+    padding: 10px 80px;
+    border-radius: 5px;
+}
+
+.button_white {
+    background-color: $color2;
+    color: $navigation;
+    transition: .2s linear;
+    padding: 10px 80px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
